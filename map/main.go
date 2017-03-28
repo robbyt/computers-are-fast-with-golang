@@ -8,10 +8,6 @@ import (
 	"time"
 )
 
-func task(control chan bool) {
-
-}
-
 func main() {
 	// disable gc
 	debug.SetGCPercent(-1)
